@@ -327,17 +327,49 @@ ol.carousel-indicators {
 	text-align: center;
 	}
 
-	.right-feature-item h3 {
-		text-transform: uppercase;
-		font-size: 25px;
-		font-weight: 700;
-		margin-bottom: 21px;
-		color: #333;
-	}
-	
-	.right-feature-item p {
-		color: #333;
-		font-size: 16px;
-		font-weight: 300;
-		line-height: 25px;
-	}
+.right-feature-item h3 {
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 21px;
+	color: #333;
+}
+
+.right-feature-item p {
+	color: #333;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 25px;
+}
+
+/* ========== Purchase Now ========== */
+
+.purchase-now {
+	background-color: #1a1a1a;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.purchase-now p {
+	color: #dfdfdf;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+a.btn-purchase-now,
+a.btn-purchase-now:active,
+a.btn-purchase-now:focus,
+a.btn-purchase-now:visited {
+	background-color: #129CF3;
+	border: 1px solid #129CF3;
+	color: #fff;
+	border-radius: 3px;
+	padding: 15px 35px;
+	text-transform: uppercase;
+	transition: all 1s;
+}
+
+a.btn-purchase-now:hover {
+	background-color: #1274B1;
+	border-color: #316B90;
+}
