@@ -366,7 +366,7 @@ a.btn-purchase-now:visited {
 	border-radius: 3px;
 	padding: 15px 35px;
 	text-transform: uppercase;
-	transition: all 1s;
+	transition: all .5s;
 }
 
 a.btn-purchase-now:hover {
